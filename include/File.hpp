@@ -4,6 +4,7 @@
 #include <cstdarg>
 #include <cassert>
 #include <cstdio>
+#include <utility>
 
 
 
@@ -56,5 +57,6 @@ namespace File
 	#define FILE_OBJECT_IMPL__WRITER
 	#include "impl/File_object_implementation.hpp"
 }
+
 
 #endif /* FILE_H */
